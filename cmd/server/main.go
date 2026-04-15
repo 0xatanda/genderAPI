@@ -8,5 +8,5 @@ import (
 
 func main() {
 	http.HandleFunc("/api/classify", handler.ClassifyHandler)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":80", nil)
 }
